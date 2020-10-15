@@ -1,0 +1,79 @@
+body{
+	font-family: 'open sans', sans-serif;
+	background-color: black;
+}
+#container{
+	width: 1200px;
+	height: 550px;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+	background-image: url(https://iphonewallpaperworld.com/wp-content/uploads/2020/03/desktop-wallpaper-11.jpg);
+    margin: 60px auto;
+    background-size: cover;
+}
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: #eaedef;
+	margin: 0px auto;
+    position: relative;
+    top:15px;
+    border-radius: 5px;
+    box-shadow: 2px  0px 2px grey;
+}
+#result{
+	height: 20px;
+}
+#history{
+  text-align: right;
+  height: -10px;
+  margin: 0 20px;
+  padding-top: 10px;
+  font-size: 15px;
+  color: grey;
+}
+#output{
+	text-align: right;
+	height: 30px;
+	margin: 10px 20px;
+	font-size: 30px; 	
+}
+#keyboard{
+	height: 400px;
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.number, .empty{
+	background-color: #eaedef;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 3px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: none;
+}
+button:nth-child(4){
+	background-color: red;
+}
+button:nth-child(8){
+	background-color: seagreen;
+}
+button:nth-child(12){
+	background-color: orange;
+}
+button:nth-child(16){
+	background-color: salmon;
+}
+button:nth-child(20){
+	background-color: green;
+}
